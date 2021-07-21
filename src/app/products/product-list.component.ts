@@ -1,9 +1,11 @@
+import { listLazyRoutes } from "@angular/compiler/src/aot/lazy_routes";
 import { Component } from "@angular/core";
 import { IProduct } from "./product";
 
 @Component({
     selector: 'pm-products',
-    templateUrl: './product-list.component.html'
+    templateUrl: './product-list.component.html',
+    styleUrls: ['./product-list.component.css']
 })
 
 export class ProductListComponent {
